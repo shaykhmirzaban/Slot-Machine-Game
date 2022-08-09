@@ -1,0 +1,29 @@
+.slotMachin{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box1{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 4px 0px #500669;
+    background-color: #38303a;
+    color: #fff;
+    border-radius: 15px;
+    margin: .3rem;
+    transition: 0.5s;
+}
+.box1 p{
+    font-size: 1.1rem;
+    margin: .3rem 0;
+}
+.box1:hover{
+    transform: scale(1.1);
+}
